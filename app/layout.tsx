@@ -1,9 +1,10 @@
 import { Metadata } from "next"
 import Navigation from "../components/navigation"
+import "../styles/global.css";
 
 export const metadata: Metadata = {
   title: {
-      template: "%s | Next Movies",
+      template: "%s",
       default: "loading..."
   },
   description: 'Best movies on the best framework',
